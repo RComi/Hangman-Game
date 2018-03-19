@@ -24,33 +24,23 @@
         <p>(Press any key to Start!)</p>
     
         
-    <div id="game-body" class="container" onkeypress="getKeyPress()">   
+    <div class="container">   
         <h3>Game Statistics</h3>
 
         
-        <div id ="wins"><h4>Wins - 0</h4>
-        </div>
+        <h4>Wins - <div id ="wins"></div></h4>
+        
+        
+        <h4>Loss - <div id ="losses"></div></h4>   
+        
+        
+        <h4>Guess Left - <div id ="guesses"></div></h4>
+    
 
-        
-        <div id ="loss"><h4>Loss - 0</h4>   
-        </div>
-        
-        
-        <div id ="counter"><h4>Guess Left - 7</h4>
-        </div>
-
-
-        <div id ="letter-counter"><h5>Letters Guessed - </h5>           
-        </div>
-        
-        
-        <div id="secret-word"><h2>Secret Word</h2>
-        </div>
+        <h5>Letters Guessed - <div id ="letters-guessed"></div></h5>           
         
 
-        
-        
-
+        <h2>Secret Word<div id="secret-word"></div></h2>
         
 
     </div>
